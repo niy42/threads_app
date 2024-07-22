@@ -10,7 +10,7 @@ const page = async () => {
 
         //if (!user) return null;
 
-        const userInfo = await fetchUser(user.id);
+        const userInfo = {};
 
         const userData = {
             id: user?.id,
