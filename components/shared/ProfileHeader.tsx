@@ -7,6 +7,7 @@ type Props = {
     username: string,
     imgUrl: string,
     bio: string,
+    type?: 'User' | 'Community'
 }
 
 export default function ProfileHeader({
@@ -14,7 +15,8 @@ export default function ProfileHeader({
     authUserId,
     name, username,
     imgUrl,
-    bio
+    bio,
+    type
 }: Props) {
     return (
         <div>

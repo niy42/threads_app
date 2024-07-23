@@ -25,7 +25,7 @@ import { updateUser } from "@/lib/actions/user.action";
 interface Props {
     user: {
         id: string;
-        objectid: string;
+        objectId: string;
         image: string;
         name: string;
         username: string;
